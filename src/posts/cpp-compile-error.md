@@ -9,7 +9,7 @@ date: 2024-01-15
 
 ## 问题描述
 
-我在编译一个包含虚函数的类时，遇到了以下错误：
+我在编译一个包含虚函数的类时，遇到了以下错误
 
 ```
 undefined reference to `vtable for MyClass`
