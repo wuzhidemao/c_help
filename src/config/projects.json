@@ -1,0 +1,10 @@
+{
+  "projects": [
+    { "name": "TensorFlow", "url": "https://github.com/tensorflow/tensorflow", "description": "机器学习框架，大量使用 C++" },
+    { "name": "Qt", "url": "https://github.com/qt/qt5", "description": "跨平台 GUI 框架" },
+    { "name": "Boost", "url": "https://github.com/boostorg/boost", "description": "C++ 标准库扩展" },
+    { "name": "nlohmann/json", "url": "https://github.com/nlohmann/json", "description": "现代 C++ JSON 库" },
+    { "name": "fmt", "url": "https://github.com/fmtlib/fmt", "description": "格式化库" },
+    { "name": "spdlog", "url": "https://github.com/gabime/spdlog", "description": "高性能日志库" }
+  ]
+}

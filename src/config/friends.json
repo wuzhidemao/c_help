@@ -1,0 +1,8 @@
+{
+  "friends": [
+    { "name": "GitHub", "url": "https://github.com", "description": "代码托管平台" },
+    { "name": "Stack Overflow", "url": "https://stackoverflow.com", "description": "技术问答社区" },
+    { "name": "C++ Reference", "url": "https://en.cppreference.com", "description": "C++ 官方参考" },
+    { "name": "LeetCode", "url": "https://leetcode.com", "description": "算法学习平台" }
+  ]
+}

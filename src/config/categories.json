@@ -1,0 +1,12 @@
+{
+  "categories": [
+    { "name": "编译问题", "icon": "code" },
+    { "name": "运行错误", "icon": "bug" },
+    { "name": "性能优化", "icon": "zap" },
+    { "name": "内存管理", "icon": "hardDrive" },
+    { "name": "模板编程", "icon": "layers" },
+    { "name": "并发编程", "icon": "gitBranch" },
+    { "name": "网络编程", "icon": "network" },
+    { "name": "其他", "icon": "moreHorizontal" }
+  ]
+}
