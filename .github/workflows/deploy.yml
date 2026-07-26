@@ -18,11 +18,13 @@ jobs:
         with:
           node-version: 24
 
-      - name: Enable pnpm via corepack
-        run: corepack enable
+      - name: Activate a known pnpm via corepack
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
 
-      - name: Install dependencies
-        run: pnpm install --config.minimum-release-age=0 --config.allow-build-scripts
+      - name: Install dependencies (allow build scripts)
+        run: pnpm install --config.minimum-release-age=0 --config.allow-build-scripts=true
 
       - name: Build project
         run: pnpm run build
