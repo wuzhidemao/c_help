@@ -22,7 +22,7 @@ jobs:
         run: corepack enable
 
       - name: Install dependencies
-        run: pnpm install --config.minimum-release-age=0
+        run: pnpm install --config.minimum-release-age=0 --config.allow-build-scripts
 
       - name: Build project
         run: pnpm run build
